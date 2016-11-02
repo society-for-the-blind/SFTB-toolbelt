@@ -59,7 +59,7 @@ function! DoPrettyXML()
 endfunction  
 command! PrettyXML call DoPrettyXML()
 ```
-Vim will also open zip files (and docx as it is just a bunch of zipped XML files) and it will probably persist changes in the archive as well. (This seems to be built in.)
+Vim will also open zip files (and docx as it is just a bunch of zipped XML files) and it will persist changes on save in the archive as well. (This seems to be built in.)
 
 **RESOURCES**  
 [Exploring the Office Open XML Formats File](https://msdn.microsoft.com/en-us/library/aa982683(v=office.12).aspx#Anchor_2)
